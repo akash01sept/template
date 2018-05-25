@@ -23,7 +23,12 @@ body{
 .main {
     background-color: #ffffff;
 }
+.banner-img {
+    background: url(../img/banner_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 
+}
 
 
 
