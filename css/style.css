@@ -105,10 +105,40 @@ body{
 .social-icon a:hover {
     border: none !important;
 }
-
-
-
-
+.banner-text {
+    position: absolute;
+    top: 50%;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+}
+.banner-text h1 {
+    color: #fff;
+    font-family: 'Gotham-Bold';
+    font-size: 100px;
+}
+.banner-text p {
+    font-family: 'Gotham-Medium';
+    color: #11749e;
+    font-size: 30px;
+    letter-spacing: 8px;
+    word-spacing: 18px;
+}
+.scroll-down {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 54px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -2%;
+    margin-top: 90px;
+    opacity: .6;
+}
 
 
 
