@@ -1,4 +1,5 @@
 //----------------Btn-Scroll-------------------//
+$(document).ready(function(){
 $('a.scrollTo').on('click', function(){
     // data-scrollTo = section scrolling to name
     var scrollTo = $(this).attr('data-scrollTo');
@@ -17,4 +18,5 @@ $('a.scrollTo').on('click', function(){
     }, 1000 );
     return false;
 })
+});
 //----------------Btn-Scroll-End-------------------//
