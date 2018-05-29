@@ -24,7 +24,7 @@ $('a.scrollTo').on('click', function(){
 // Create Function
 function backToTop() {
     if (jQuery(this).scrollTop () > 100) {
-        jQuery("#scrollTop").fadeIn(700);
+        jQuery("#scrollTop").fadeIn(900);
     } else {
         jQuery("#scrollTop").fadeOut(500);
     }
