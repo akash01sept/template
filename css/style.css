@@ -65,6 +65,7 @@ body{
 }
 .creatives-main {
     position: relative;
+    overflow: hidden;
 }
 .banner-img {
     background: url(../img/banner_img.jpg) no-repeat top center fixed;
