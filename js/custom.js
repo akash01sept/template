@@ -20,3 +20,25 @@ $('a.scrollTo').on('click', function(){
 })
 });
 //----------------Btn-Scroll-End-------------------//
+//----------------Scroll-Top-------------------//
+// Create Function
+function backToTop() {
+    if (jQuery(this).scrollTop () > 100) {
+        jQuery("#scrollTop").fadeIn(700);
+    } else {
+        jQuery("#scrollTop").fadeOut(500);
+    }
+};
+jQuery( window ).scroll( function() {
+    // call function
+    backToTop();
+});
+jQuery( document ).ready ( function () {
+    // #scrollTop click function
+    jQuery("#scrollTop").click ( function () {
+        jQuery('html,body').animate({
+            scrollTop: 0
+        }, 500); // you can increase or Decrease animation speed like 200 or 700
+    });
+});
+//----------------Scroll-Top-------------------//
