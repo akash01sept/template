@@ -114,7 +114,7 @@ body{
 }
 .banner-text {
     position: absolute;
-    top: 40%;
+    top: 25%;
     text-transform: uppercase;
     width: 100%;
     text-align: center;
@@ -149,9 +149,14 @@ body{
     background: #11749e;
     color: #fff;
     position: relative;
+    padding-bottom: 80px;
+}
+.agency-features {
+    text-align: center;
 }
 .desc {
     text-align: center;
+    margin-top: 50px;
 }
 .Big {
     font-family: 'Roboto-Bold';
@@ -161,16 +166,50 @@ body{
 .desc .other-heading {
     font-family: 'Gotham-Medium';
     position: absolute;
-    top: 58px;
+    top: 43%;
     left: 28%;
     font-size: 30px;
     text-transform: uppercase;
 }
-
-
-
-
-
+.feature-icon {
+    text-align: center;
+}
+.icon-box {
+    background-color: #2e85aa;
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    color: #fff;
+    display: inline-block;
+    line-height: 80px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+}
+.agency-features h3 {
+    font-family: 'Gotham-Medium';
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.agency-features p {
+    font-family: 'Gotham-Book';
+    font-size: 15px;
+}
+.padding-top {
+    margin-top: 50px;
+}
+.culture-section {
+    background-color: #000;
+    color: #fff;
+    padding: 98px;
+}
+.space-blank {
+    padding-right: 0;
+    padding-left: 0;
+}
+.culture-img img {
+    width: 100%;
+}
 
 
 
