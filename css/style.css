@@ -248,11 +248,11 @@ body{
 }
 .new-feature-icon {
     text-align: right;
-    padding-top: 16px;
+    padding-top: 14px;
 }
 .blue-box P {
     font-family: 'Gotham-Book';
-    font-size: 13px;
+    font-size: 12px;
 }
 .box-padding {
     padding-left: 0;
@@ -260,9 +260,20 @@ body{
 .new-other-section {
     padding-top: 50px;
 }
-
-
-
+.other-section-img {
+    background: url(../img/bg-img.png) no-repeat top center fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;
+}
+.new-section {
+    position: relative;
+}
+.mob-img {
+    position: absolute;
+    bottom: 30px;
+}
 
 
 
