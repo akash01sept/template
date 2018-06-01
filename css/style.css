@@ -231,9 +231,17 @@ body{
     color: #222222;
     font-size: 30px;
 }
-
-
-
+.feature-icon img {
+    width: 100%;
+}
+.agency-features .blog-heading {
+    color: #11749e;
+    margin-top: 20px;
+}
+.agency-features .blog-para {
+    color: #222222;
+    font-size: 14px;
+}
 
 
 
