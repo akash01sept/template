@@ -161,15 +161,15 @@ body{
 }
 .Big {
     font-family: 'Roboto-Bold';
-    font-size: 130px;
+    font-size: 176px;
     opacity: .2;
 }
 .desc .other-heading {
     font-family: 'Gotham-Medium';
     position: absolute;
     top: 43%;
-    left: 28%;
-    font-size: 30px;
+    left: 25%;
+    font-size: 37px;
     text-transform: uppercase;
 }
 .feature-icon {
@@ -215,9 +215,17 @@ body{
     background-color: #f3f3f3;
     color: #000;
 }
-
-
-
+.blog-section {
+    background: #ffffff;
+}
+.desc .blog-heading {
+    color: #222222;
+    left: 41%;
+}
+.blog-big {
+    color: #d7d7d7;
+    opacity: 1;
+}
 
 
 
