@@ -167,7 +167,7 @@ body{
 .desc .other-heading {
     font-family: 'Gotham-Medium';
     position: absolute;
-    top: 43%;
+    top: 36%;
     left: 25%;
     font-size: 37px;
     text-transform: uppercase;
@@ -226,7 +226,11 @@ body{
     color: #d7d7d7;
     opacity: 1;
 }
-
+.desc p {
+    font-family: 'Gotham-Book';
+    color: #222222;
+    font-size: 30px;
+}
 
 
 
