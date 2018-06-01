@@ -115,7 +115,7 @@ body{
 }
 .banner-text {
     position: absolute;
-    top: 15%;
+    top: 10%;
     text-transform: uppercase;
     width: 100%;
     text-align: center;
@@ -241,7 +241,31 @@ body{
 .agency-features .blog-para {
     color: #222222;
     font-size: 14px;
+    line-height: 18px;
 }
+.new-box {
+    font-size: 50px;
+}
+.new-feature-icon {
+    text-align: right;
+    padding-top: 16px;
+}
+.blue-box P {
+    font-family: 'Gotham-Book';
+    font-size: 13px;
+}
+.box-padding {
+    padding-left: 0;
+}
+.new-other-section {
+    padding-top: 50px;
+}
+
+
+
+
+
+
 
 
 
