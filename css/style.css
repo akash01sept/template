@@ -274,7 +274,9 @@ body{
     position: absolute;
     bottom: 30px;
 }
-
+.mob-img img {
+    width: 100%;
+}
 
 
 
