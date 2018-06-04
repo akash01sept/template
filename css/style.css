@@ -314,8 +314,28 @@ body{
     border-radius: 0;
     height: 38px;
 }
+.team-features {
+    position: relative;
+}
+.team-desc {
+    position: absolute;
+    bottom: -18px;
+    left: 18%;
+    background-color: #fff;
+    width: 155px;
+}
+.team-desc .blog-heading {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+.team-desc p {
+    color: #000;
+    font-family: 'Gotham-Medium';
+    font-size: 15px;
+}
+.team-desc .blog-heading {
 
-
+}
 
 
 
