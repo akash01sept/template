@@ -277,6 +277,46 @@ body{
 .mob-img img {
     width: 100%;
 }
+.left-section {
+    position: absolute;
+    bottom: 93px;
+    padding: 130px;
+    color: #fff;
+}
+.left-section h3 {
+    font-family: 'Gotham-Medium';
+}
+.left-section p {
+    font-family: 'Gotham-Book';
+    margin-bottom: 60px;
+}
+.progress-custom {
+    width: 70%;
+    border-radius: 0;
+    height: 38px;
+}
+.progress-custom .progress-bar,.progress-custom2 .progress-bar,.progress-custom3 .progress-bar {
+    font-family: 'Gotham-Medium';
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 40px;
+    width: 100%;
+    text-align: left;
+    padding-left: 15px;
+}
+.progress-custom2 {
+    width: 80%;
+    border-radius: 0;
+    height: 38px;
+}
+.progress-custom3 {
+    width: 90%;
+    border-radius: 0;
+    height: 38px;
+}
+
+
+
 
 
 
