@@ -320,9 +320,9 @@ body{
 .team-desc {
     position: absolute;
     bottom: -18px;
-    left: 18%;
+    left: 15%;
+    width: 200px;
     background-color: #fff;
-    width: 155px;
 }
 .team-desc .blog-heading {
     margin-top: 10px;
