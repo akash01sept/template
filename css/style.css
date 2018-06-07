@@ -342,8 +342,8 @@ body{
 }
 .contact-desc {
     position: absolute;
-    top: 0;
-    left: 18%;
+    top: 60px;
+    left: 10%;
     z-index: 9;
 }
 .contact-section-img {
@@ -351,7 +351,7 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
-    height: 750px;
+    height: 600px;
 }
 .section-center {
     text-align: center;
@@ -361,20 +361,70 @@ body{
     font-size: 37px;
     color: #fff;
     text-transform: uppercase;
+    position: relative;
+    top: -133px;
 }
 .C_Big {
     font-family: 'Roboto-Bold';
     font-size: 176px;
     opacity: 0.5;
 }
-
-
-
-
-
-
-
-
+.new-form-control {
+    background-color: transparent;
+    border-radius: 0;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.new-form-group input[type="text"]::-webkit-input-placeholder { /* Chrome */
+    color: #fff;
+}
+.new-form-group input[type="text"]:-ms-input-placeholder { /* IE 10+ */
+    color: #fff;
+}
+.new-form-group input[type="text"]::-moz-placeholder { /* Firefox 19+ */
+    color: #fff;
+}
+.new-form-group input[type="text"]:-moz-placeholder { /* Firefox 4 - 18 */
+    color: #fff;
+}
+.new-form-group input[type="email"]::-webkit-input-placeholder { /* Chrome */
+    color: #fff;
+}
+.new-form-group input[type="email"]:-ms-input-placeholder { /* IE 10+ */
+    color: #fff;
+}
+.new-form-group input[type="email"]::-moz-placeholder { /* Firefox 19+ */
+    color: #fff;
+}
+.new-form-group input[type="email"]:-moz-placeholder { /* Firefox 4 - 18 */
+    color: #fff;
+}
+.new-form-group textarea::-webkit-input-placeholder { /* Chrome */
+    color: #fff;
+}
+.new-form-group textarea:-ms-input-placeholder { /* IE 10+ */
+    color: #fff;
+}
+.new-form-group textarea::-moz-placeholder { /* Firefox 19+ */
+    color: #fff;
+}
+.new-form-group textarea:-moz-placeholder { /* Firefox 4 - 18 */
+    color: #fff;
+}
+.new-submit {
+    color: #fff;
+    background-color: #11749e;
+    border: none;
+    border-radius: 0;
+    padding: 9px 50px;
+}
+.footer {
+    background-color: #222222;
+    color: #fff;
+}
+.footer-para {
+    padding: 36px 0 30px 0;
+}
 
 
 
