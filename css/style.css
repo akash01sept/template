@@ -411,7 +411,7 @@ body{
 .new-form-group textarea:-moz-placeholder { /* Firefox 4 - 18 */
     color: #fff;
 }
-.new-submit {
+.new-submit, .new-submit.active.focus, .new-submit.active:focus, .new-submit.active:hover, .new-submit:active.focus, .new-submit:active:focus, .new-submit:active:hover, .new-submit:focus, .new-submit:hover {
     color: #fff;
     background-color: #11749e;
     border: none;
