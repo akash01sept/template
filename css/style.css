@@ -74,6 +74,9 @@ body{
     width: 100%;
     height: 750px;
 }
+.navbar-hide {
+    display: none;
+}
 .my-header {
     position: absolute;
     top: 0;
@@ -200,7 +203,10 @@ body{
     margin-top: 50px;
 }
 .culture-section {
-    background-color: #000;
+    background: url(../img/black-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
     color: #fff;
     padding: 98px;
 }
@@ -208,11 +214,21 @@ body{
     padding-right: 0;
     padding-left: 0;
 }
-.culture-img img {
-    width: 100%;
+.culture-img {
+    background: url(../img/img-1.jpg);
+    background-size: cover;
+    height: 450px;
+}
+.culture-img-2 {
+    background: url(../img/img-2.jpg);
+    background-size: cover;
+    height: 450px;
 }
 .culture-section-bg {
-    background-color: #f3f3f3;
+    background: url(../img/white-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
     color: #000;
 }
 .blog-section {
@@ -430,11 +446,202 @@ body{
 }
 
 
-@media screen and (max-width: 1366px) {
-    .banner-text {
-        top: 6%;
+@media screen and (max-width: 1200px) {
+    .desc .other-heading {
+        left: 18%;
+    }
+    .desc .blog-heading {
+        left: 38%;
+    }
+    .contact-desc .contact-heading {
+        font-size: 30px;
+    }
+    .team-desc{
+        width: 165px;
+        bottom: -30px;
     }
 }
+@media screen and (max-width: 992px) {
+    .my-navbar>li>a {
+        padding: 10px 12px;
+    }
+    .my-navbar {
+        margin-right: -16px;
+    }
+    .banner-img {
+        height: 650px;
+    }
+    .scroll-down {
+        margin-top: 40px;
+    }
+    .desc .other-heading {
+        font-size: 30px;
+    }
+    .contact-desc .contact-heading {
+        font-size: 26px;
+    }
+    .contact-desc .contact-heading {
+        left: 8%;
+        top: 85px;
+    }
+    .desc .blog-heading {
+        top: 38%;
+    }
+    .culture-section {
+        padding: 40px;
+        height: 346px;
+    }
+    .culture-img, .culture-img-2 {
+        height: 346px;
+    }
+    .left-section {
+        padding: 78px 0 78px 78px;
+    }
+    .desc p {
+        font-size: 25px;
+    }
+    .banner-text h1 {
+        font-size: 75px;
+    }
+    .banner-text p {
+        font-size: 25px;
+    }
+    .team-desc {
+        width: 125px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-hide {
+        display: block;
+        height: 100px;
+    }
+    .logo-hide {
+        display: none;
+    }
+    .navbar-toggle {
+        margin-top: 25px;
+        margin-right: 33px;
+    }
+    .banner-text h1 {
+        font-size: 45px;
+    }
+    .banner-text p {
+        font-size: 20px;
+    }
+    .banner-text {
+        top: 2%;
+    }
+    .banner-img {
+        height: 500px;
+    }
+    .my-navbar>li>a {
+        line-height: 20px;
+    }
+    .social-icon {
+        display: none !important;
+    }
+    .new-navbar {
+        background: #000000;
+        border-radius: 0;
+        z-index: 9;
+    }
+    .desc {
+        margin-top: 20px;
+    }
+    .Big {
+        font-size: 100px;
+    }
+    .desc .other-heading {
+        font-size: 22px;
+    }
+    .desc .other-heading {
+        left: 23%;
+        top: 22%;
+    }
+    .agency-features p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .culture-img {
+        margin-bottom: 20px;
+    }
+    .desc .blog-heading {
+        top: 18%;
+        left: 40%;
+    }
+    .desc p {
+        font-size: 18px;
+    }
+    .new-other-section {
+        padding-top: 0;
+    }
+    .agency-section {
+        padding-bottom: 40px;
+    }
+    .new-feature-icon{
+        text-align: center;
+    }
+    .blue-box P {
+        padding: 0 20px 0 20px;
+    }
+    .left-section {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .mob-img {
+        padding-top: 0;
+        text-align: center;
+    }
+    .mob-img img {
+        width: 200px;
+    }
+    .agency-features {
+        margin-bottom: 30px;
+    }
+    .team-desc {
+        width: 450px;
+    }
+    .contact-desc {
+        padding-top: 0;
+    }
+    .C_Big {
+        font-size: 100px;
+    }
+    .contact-desc .contact-heading {
+        left: 16%;
+        top: 26px;
+        font-size: 20px;
+    }
+    .contact-section-img {
+        height: 486px;
+    }
+    .footer-para {
+        padding: 16px 0 6px 0;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    .team-desc {
+        width: 390px;
+    }
+    .contact-desc .contact-heading {
+        left: 10%;
+    }
+    .desc-w .other-heading {
+        left: 20%;
+    }
+    .desc .blog-heading {
+        left: 38%;
+    }
+}
+/*@media screen and (max-width: 580px) {
+
+
+}  */
+
+
+
 
 
 
