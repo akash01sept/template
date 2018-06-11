@@ -635,11 +635,51 @@ body{
         left: 38%;
     }
 }
-/*@media screen and (max-width: 580px) {
-
-
-}  */
-
+@media screen and (max-width: 510px) {
+    .desc-w .other-heading {
+        left: 11%;
+    }
+    .team-desc {
+        width: 285px;
+    }
+    .contact-desc .contact-heading {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .banner-text {
+        top: 3%;
+    }
+    .contact-desc .contact-heading {
+        font-size: 11px;
+        top: 31px;
+        left: 10%;
+    }
+    .banner-text p {
+        font-size: 12px;
+        letter-spacing: 0;
+        word-spacing: 0;
+    }
+    .banner-text h1 {
+        font-size: 35px;
+    }
+    .desc .other-heading {
+        font-size: 14px;
+    }
+    .culture-section {
+        height: 360px;
+    }
+    .desc p {
+        font-size: 12px;
+    }
+    .left-section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .team-desc {
+        width: 210px;
+    }
+}
 
 
 
